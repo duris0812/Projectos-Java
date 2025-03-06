@@ -52,7 +52,7 @@ public class Login extends JFrame implements ActionListener {
             String contraseña = new String(campoContraseña.getPassword());
 
             if (usuario.isEmpty() || contraseña.isEmpty()) {
-                JOptionPane.showMessageDialog(null, "Alguno de los campos está vacío");
+                JOptionPane.showMessageDialog(null, "Alguno de los campos esta vacio");
             } else {
                 if (usuario.equals("Sergio") && contraseña.equals("0101")) {
                     JOptionPane.showMessageDialog(null, "Inciando....");
