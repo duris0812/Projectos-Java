@@ -1,0 +1,21 @@
+import javax.swing.JOptionPane;
+
+public class MayorDeTres {
+    public static void main(String[] args) {
+        int a = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el primer número:"));
+        int b = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el segundo número:"));
+        int c = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el tercer número:"));
+        
+        int mayor;
+        
+        if (a > b && a > c) {
+            mayor = a;
+        } else if (b > c) {
+            mayor = b;
+        } else {
+            mayor = c;
+        }
+        
+        JOptionPane.showMessageDialog(null, "El número mayor es: " + mayor);
+    }
+}
