@@ -1,6 +1,7 @@
+// Importamos la librearia JOPtionPane
 import javax.swing.JOptionPane;
 
-// Numero mayor de 3
+// Numero mayor de e
 
 public class MayorDeTres {
     public static void main(String[] args) {
