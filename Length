@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+public class LongitudPalabra {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingresa una palabra: ");
+        String palabra = scanner.nextLine();
+        System.out.println("La longitud de la palabra es: " + palabra.length());
+    }
+}
