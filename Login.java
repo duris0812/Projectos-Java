@@ -5,7 +5,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-//Clase principal
+//Clase principal con el front y backend
 public class Login extends JFrame implements ActionListener {
 
     private JLabel eUsuario, eContraseña;
